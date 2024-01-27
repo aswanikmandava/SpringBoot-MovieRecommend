@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class RecommenderImplementation {
+	// Autowiring by type
+	@Autowired
 	private Filter filter;
 	
 	public RecommenderImplementation(Filter filter) {

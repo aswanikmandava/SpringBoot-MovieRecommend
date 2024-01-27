@@ -1,4 +1,4 @@
-package com.mandava.springbasics.movierecommendersystem.lesson3;
+package lesson4;
 
 import org.springframework.stereotype.Component;
 
@@ -7,7 +7,6 @@ public class ContentBasedFilter implements Filter {
 
 	@Override
 	public String[] getRecommendations(String movie) {
-
 		return new String[] {"Happy Feet", "Ice Age", "Shark Tale"};
 	}
 

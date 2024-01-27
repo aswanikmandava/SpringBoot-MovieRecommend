@@ -1,10 +1,8 @@
-package com.mandava.springbasics.movierecommendersystem.lesson3;
+package lesson4;
 
 import org.springframework.stereotype.Component;
-import org.springframework.context.annotation.Primary;
 
 @Component
-@Primary
 public class CollaborativeFilter implements Filter {
 
 	@Override
